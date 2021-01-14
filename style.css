@@ -1,0 +1,110 @@
+.header-part-background-colour {
+    height: 550px;
+    background-color: bisque;
+}
+
+@media(max-width:768px) {
+    .header-part-background-colour {
+        height: 900px;
+    }
+}
+
+.logo {
+    height: 32px;
+    margin-top: 2px;
+}
+
+.Girl-img {
+    width: 330px;
+    margin-left: 35px;
+
+}
+
+@media(max-width:768px) {
+    .Girl-img {
+        padding-top: 20px;
+
+    }
+}
+
+.ladies-jacket {
+    height: 318px;
+    padding: 18px;
+    width: 90%;
+    margin: 19px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
+.ladies-red-jacket {
+    height: 318px;
+    width: 90%;
+    margin: 19px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
+.ladies-yellow-jacket {
+    width: 90%;
+    margin: 19px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    height: 318px;
+}
+
+.snow-board-jacket-man {
+    height: 323px;
+    padding: 10px;
+    width: 90%;
+    margin: 19px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
+.man-casual-jacket {
+    height: 318px;
+    width: 90%;
+    padding: 10px;
+    margin: 19px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
+.contact-seller {
+    height: 90px;
+}
+
+.find-perfect-fit img {
+    width: 88px;
+}
+
+.find-perfect-fit-image {
+    width: 100%;
+}
+
+.all-button-color {
+    background-color: #8EA926;
+    border: 0;
+}
+
+@media(max-width:768px) {
+    .woman-jacket-media {
+        flex-direction: column;
+    }
+
+    .man-jacket-media {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .all-button-media {
+        margin-left: 17px;
+        
+    }
+}
+
+.contact-us-center {
+    width: 200px;
+}
